@@ -1,0 +1,70 @@
+{
+  "metrics": {
+    "Random Forest": {
+      "accuracy": 0.9558333333333333,
+      "precision": 0.9182561307901907,
+      "recall": 0.9361111111111111,
+      "f1": 0.9270976616231087,
+      "confusion_matrix": [
+        [
+          810,
+          30
+        ],
+        [
+          23,
+          337
+        ]
+      ]
+    },
+    "K-Nearest Neighbors": {
+      "accuracy": 0.9483333333333334,
+      "precision": 0.935672514619883,
+      "recall": 0.8888888888888888,
+      "f1": 0.9116809116809117,
+      "confusion_matrix": [
+        [
+          818,
+          22
+        ],
+        [
+          40,
+          320
+        ]
+      ]
+    },
+    "SVM (RBF)": {
+      "accuracy": 0.9583333333333334,
+      "precision": 0.91005291005291,
+      "recall": 0.9555555555555556,
+      "f1": 0.9322493224932249,
+      "confusion_matrix": [
+        [
+          806,
+          34
+        ],
+        [
+          16,
+          344
+        ]
+      ]
+    }
+  },
+  "cv_f1_mean": 0.9241806125220323,
+  "cv_f1_std": 0.008691879943167252,
+  "feature_importance": {
+    "Signal_Strength_dBm": 0.12598866174978515,
+    "Neighbor_Signal_dBm": 0.10405459348035544,
+    "User_Speed_kmh": 0.00995374036812516,
+    "Tower_Distance_km": 0.14474067988286735,
+    "Network_Traffic_Percentage": 0.008684099887901047,
+    "Neighbor_Traffic_Percentage": 0.011300800592631104,
+    "Latency_ms": 0.02102223284638619,
+    "Network_Speed_Mbps": 0.08644413907851521,
+    "Signal_Diff_dB": 0.47294499076038776,
+    "Load_Diff_Pct": 0.014866061353045683
+  },
+  "n_train": 4800,
+  "n_test": 1200,
+  "seed": 42,
+  "trained_at": "2026-11-03T06:45:02+00:00"
+}
