@@ -180,6 +180,4 @@ dataset/  models/  docs/methodology.md  tests/  assets/project_images/
 ```
 
 ## Author
-**[Your Name]** - MCA, [Your University] · [Your email / LinkedIn - add your own]
-
-Licence: add a licence of your choice (e.g. MIT) before publishing.
+**Deepak** - MCA, CU · deepakkr@93087@gmail.com
